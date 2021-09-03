@@ -18,8 +18,12 @@ body {
 h1 {
   color: $cyan;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 1rem 0;
+}
+
+h2 {
+  font-size: 1.2rem;
 }
 
 // utilitys
@@ -28,4 +32,50 @@ h1 {
   height: 100%;
   margin: auto;
   padding: 0 1rem;
+}
+
+.py1 {
+  padding: 1rem 0;
+}
+.py2 {
+  padding: 2rem 0;
+}
+.py3 {
+  padding: 3rem 0;
+}
+.py4 {
+  padding: 4rem 0;
+}
+
+.px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.px3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+// Buttons
+.btn {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.05rem;
+
+  &-light {
+    background: $bright-yellow;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 5px 10px 0px rgba(26, 52, 97, 0.2);
+  }
 }

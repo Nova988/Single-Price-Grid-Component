@@ -14,9 +14,8 @@
     grid-auto-rows: auto;
     background: #fff;
     border-radius: 0.5rem;
-    max-width: 70%;
+    max-width: 65%;
     margin: auto;
-    padding: 2rem 6rem 2rem 3rem;
     overflow: hidden;
 
     .header {
@@ -24,9 +23,50 @@
 
       .subtitle {
         color: $bright-yellow;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         padding: 1rem 0;
         font-weight: 700;
+      }
+
+      P {
+        color: $grayish-blue;
+        padding-right: 2rem;
+      }
+    }
+
+    .subscription {
+      background: $cyan;
+      color: $light-gray;
+      padding-right: 3.5rem;
+
+      .price {
+        display: flex;
+        justify-content: fles-start;
+        align-items: center;
+        padding-top: 1rem;
+
+        span {
+          font-size: 2rem;
+          padding-right: 0.75rem;
+        }
+
+        p {
+          opacity: 0.7;
+        }
+      }
+
+      > p {
+        padding-bottom: 2rem;
+      }
+    }
+    .about {
+      background: $cyan;
+      opacity: 0.7;
+      color: $light-gray;
+
+      p {
+        width: 80%;
+        padding-top: 1rem;
       }
     }
   }
