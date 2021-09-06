@@ -28,7 +28,7 @@
         font-weight: 700;
       }
 
-      P {
+      p {
         color: $grayish-blue;
         padding-right: 2rem;
       }
@@ -48,6 +48,7 @@
         span {
           font-size: 2rem;
           padding-right: 0.75rem;
+          font-weight: 700;
         }
 
         p {
@@ -65,9 +66,10 @@
       color: $light-gray;
 
       p {
-        width: 80%;
         padding-top: 1rem;
       }
     }
   }
 }
+
+@import "media";

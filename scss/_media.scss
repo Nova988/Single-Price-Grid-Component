@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px) {
+  #component {
+    .pmedia {
+      padding: 2rem 1rem 2rem 1.5rem;
+    }
+
+    .card {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+
+      .header {
+        grid-column: 1/2;
+        padding: 2rem 1rem 2rem 1.5rem;
+
+        p {
+          padding-right: 0;
+        }
+      }
+
+      .subscription {
+        padding-right: 1rem;
+      }
+
+      .about {
+        p {
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
